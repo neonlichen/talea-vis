@@ -1,0 +1,64 @@
+html, body {
+    color: black;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    background: #e6e9ff;
+}
+
+#deets {
+    text-align: left;
+}
+
+#directions {
+    text-align: left;
+}
+
+#cnv {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+}
+
+a {
+        color: #02ad6e;
+        text-decoration: none;
+}
+
+.regimg {
+    border: none;
+    width:100%;
+}
+
+.textlinks {
+    text-align: center;
+}
+
+.imgrow {
+    text-align:center;
+}  
+
+#modellinks {
+    position: absolute;
+    text-align: right;
+    background:none;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+    font-family: Verdana, sans-serif;
+    color: black;
+    width: 25%;
+    left:75&;
+}
+#infobox {
+    position: absolute;
+    text-align: left;
+    background:none;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    font-family: Verdana, sans-serif;
+    color: black;
+    width: 25%;
+    right:75%;
+}
